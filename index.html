@@ -15,8 +15,13 @@
       <p class="result">You get a sharkspider!</p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
- 
+    var Paragraph = $("<p>");
+    Paragraph.text("It's Great!!!!!!!!!!!!!!");
+    $("body").append(Paragraph);
+    
+    Paragraph.addClass("Sharpider");
 
+    $(".Sharpider").css("color","green");
 
  
     </script>
